@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg" >
+
+    <ImageView
+        android:id="@+id/butt"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:src="@drawable/splash" />
+
+    <TextView
+        android:id="@+id/ttt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:textSize="70dp"
+        android:textColor="@color/lightBlue"
+        android:gravity="center_horizontal"
+        android:layout_alignParentBottom="true"
+        android:text="Phonic Eye" />
+
+</RelativeLayout>
